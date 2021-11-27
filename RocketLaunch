@@ -2,9 +2,9 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-	@isOutlet weak var rocketContentView: UIView!
-	@isOutlet weak var rocketImageView: UIImageView!
-	@isOutlet weak var succesLabel: UILabel!
+	@IBOutlet weak var rocketContentView: UIView!
+	@IBOutlet weak var rocketImageView: UIImageView!
+	@IBOutlet weak var succesLabel: UILabel!
 	
 	var player: AVAudioPlayer!
 	
